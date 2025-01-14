@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Titillium+Web" />
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Titan+One" />
+		<title>Tic Tac Toe Game</title>
+	</head>
+	<body>
+		<section class="title-holder">
+			<h1 class="title">
+				Tic Tac Toe <br />
+				by: Malcolm
+			</h1>
+		</section>
+		<section id="game-board">
+			<button
+				type="button"
+				class="game-button"
+				id="start-game"
+				onclick="start()">
+				Start!
+			</button>
+			<section id="game-status"></section>
+			<button
+				type="button"
+				class="game-button"
+				id="reset-game"
+				onclick="resetGame()">
+				Reset
+			</button>
+		</section>
+	</body>
+	<script src="app.js"></script>
+</html>
